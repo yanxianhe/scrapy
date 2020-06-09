@@ -4,9 +4,6 @@ Created on 2020年6月8日
 
 @author: yanxianhe
 '''
-# curl -X POST -k https://dockerfstest.picclife.com/login -H 'Content-Type: application/json'   -d '{  "username":"yanxianhe",  "password":"Qaz.1234"}'
-# https://dockerfstest.picclife.com/login 
-# {"username":"yanxianhe",  "password":"Qaz.1234"}
 import scrapy
 from builtins import list
 from testscrapy.items import TestscrapyItem
