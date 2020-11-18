@@ -1,0 +1,20 @@
+Collecting Twisted
+  Using cached Twisted-20.3.0.tar.bz2 (3.1 MB)
+Requirement already satisfied: zope.interface>=4.4.2 in d:\opt\python38\lib\site-packages (from Twisted) (5.2.0)
+Requirement already satisfied: constantly>=15.1 in d:\opt\python38\lib\site-packages (from Twisted) (15.1.0)
+Requirement already satisfied: incremental>=16.10.1 in d:\opt\python38\lib\site-packages (from Twisted) (17.5.0)
+Requirement already satisfied: Automat>=0.3.0 in d:\opt\python38\lib\site-packages (from Twisted) (20.2.0)
+Requirement already satisfied: hyperlink>=17.1.1 in d:\opt\python38\lib\site-packages (from Twisted) (20.0.1)
+Requirement already satisfied: PyHamcrest!=1.10.0,>=1.9.0 in d:\opt\python38\lib\site-packages (from Twisted) (2.0.2)
+Requirement already satisfied: attrs>=19.2.0 in d:\opt\python38\lib\site-packages (from Twisted) (20.3.0)
+Requirement already satisfied: setuptools in d:\opt\python38\lib\site-packages (from zope.interface>=4.4.2->Twisted) (47.1.0)
+Requirement already satisfied: six in c:\users\yanxianhe\appdata\roaming\python\python38\site-packages (from Automat>=0.3.0->Twisted) (1.15.0)
+Requirement already satisfied: idna>=2.5 in d:\opt\python38\lib\site-packages (from hyperlink>=17.1.1->Twisted) (2.10)
+Building wheels for collected packages: Twisted
+  Building wheel for Twisted (setup.py): started
+  Building wheel for Twisted (setup.py): finished with status 'error'
+  Running setup.py clean for Twisted
+Failed to build Twisted
+Installing collected packages: Twisted
+    Running setup.py install for Twisted: started
+    Running setup.py install for Twisted: finished with status 'error'

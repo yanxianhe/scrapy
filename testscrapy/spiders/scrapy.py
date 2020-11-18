@@ -4,13 +4,16 @@ Created on 2020年6月8日
 
 @author: yanxianhe
 '''
+
 import scrapy
 from builtins import list
 from testscrapy.items import TestscrapyItem
+
 class DmozSpider(scrapy.Spider): # 继承Spider类
     name = "scrapy" # 爬虫的唯一标识，不能重复，启动爬虫的时候要用
     allowed_domains = ["bilibili.com"] # 限定域名，只爬取该域名下的网页
-    start_url = "https://www.bilibili.com/ranking?spm_id_from=333.851.b_7072696d61727950616765546162.3"
+    #start_url = "https://www.bilibili.com/ranking?spm_id_from=333.851.b_7072696d61727950616765546162.3"
+    start_url = "https://www.bilibili.com/v/popular/rank/all"
     start_urls = [ # 开始爬取的链接
         start_url
     ]
