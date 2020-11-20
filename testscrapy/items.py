@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+'''
+@Author  :   yanxianhe
+@Time    :   2020/11/19 16:37:59
+@Contact :   xianhe_yan@sina.com
+'''
 
 # Define here the models for your scraped items
 #
@@ -12,6 +17,10 @@ class TestscrapyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     # 序号
+    id = scrapy.Field()
+    # 入库日期
+    storagetime = scrapy.Field()
+    # 点击量
     numb = scrapy.Field()
     # 名称
     name = scrapy.Field()

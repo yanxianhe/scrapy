@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+'''
+@Author  :   yanxianhe
+@Time    :   2020/11/19 16:36:46
+@Contact :   xianhe_yan@sina.com
+'''
 
 # Scrapy settings for testscrapy project
 #
@@ -95,3 +100,10 @@ mongo_db_user = 'mongoadmin'
 mongo_db_pwd = 'mongoadmin'
 mongo_db_name = 'test'
 mongo_db_collection = 'test_info'
+
+mysql_host = '127.0.0.1'
+mysql_port = 4306
+mysql_db_user = 'root'
+mysql_db_pwd = 'root'
+mysql_db_name = 'test'
+mysql_db_collection = 'test_info'
