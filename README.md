@@ -27,7 +27,7 @@ pip3 install Scrapy
 python main.py
 ~~~~~
 
-* 添加 mongo:4.2.7
+* 添加 mongo:4.2.7 [tag v0.0.1](https://github.com/yanxianhe/scrapy/tree/v0.0.1)
 
 ~~~~~
 mongo_host = '127.0.0.1'          # 本地安装 mongo:4.2.7 安装过程略过
@@ -38,6 +38,17 @@ mongo_db_name = 'test'            # 创建test库
 mongo_db_collection = 'test_info' # test库下创建test_info 表
 ~~~~~
 
+* 添加 mysql:5.7.26
+
+~~~~~
+mysql_host = '127.0.0.1'            # 本地安装 mongo:4.2.7 安装过程略过
+mysql_port = 4306                   # 默认端口号
+mysql_db_user = 'root'              # 使用root 用户名
+mysql_db_pwd = 'root'               # 使用root 密码
+mysql_db_name = 'test'              # 创建test库
+mysql_db_collection = 'test_info'   # test库下创建test_info 表
+~~~~~ 
 
 * cmdline.py 文件根据自己python 安装路径查找
 * 比较特殊需要将本地安装python目录下 ~\Python38\Lib\test\libregrtest\cmdline.py 拷贝到 testscrapy 下
+* sql 脚本在 /sql/目录下
