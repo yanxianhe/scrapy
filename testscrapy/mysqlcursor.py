@@ -7,11 +7,10 @@
 import pymysql
 from loguru import logger
 from testscrapy.settings import *
-from testscrapy.syslogs import GetLogging
+
 
 class mysqlcursor (object) :
     def __init__(self) :
-        GetLogging().get()
         host = mysql_host
         port = mysql_port
         username = mysql_db_user

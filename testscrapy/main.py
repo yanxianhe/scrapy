@@ -5,5 +5,7 @@
 @Contact :   xianhe_yan@sina.com
 '''
 from scrapy import cmdline
+from syslogs import GetLogging
 
+GetLogging().get()
 cmdline.execute('scrapy crawl scrapy'.split())

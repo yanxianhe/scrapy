@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import pymongo
-from loguru import logger
+
 from testscrapy.mysqlcursor import mysqlcursor
-from testscrapy.syslogs import GetLogging
+
 
 from testscrapy.settings import mongo_host,mongo_port,mongo_db_name,mongo_db_collection,mongo_db_user,mongo_db_pwd
 
@@ -14,8 +14,7 @@ from testscrapy.settings import mongo_host,mongo_port,mongo_db_name,mongo_db_col
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
 class TestscrapyPipeline:
-    def __init__(self) :
-        GetLogging().get()
+    #def __init__(self) :
         #host = mongo_host
         #port = mongo_port
         #username = mongo_db_user
