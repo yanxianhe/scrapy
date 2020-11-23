@@ -41,7 +41,7 @@ mongo_db_collection = 'test_info' # test库下创建test_info 表
 * 添加 mysql:5.7.26
 
 ~~~~~
-mysql_host = '127.0.0.1'            # 本地安装 mongo:4.2.7 安装过程略过
+mysql_host = '127.0.0.1'            # 本地安装 mysql:5.7.26 安装过程略过
 mysql_port = 4306                   # 默认端口号
 mysql_db_user = 'root'              # 使用root 用户名
 mysql_db_pwd = 'root'               # 使用root 密码
