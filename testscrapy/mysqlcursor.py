@@ -24,8 +24,9 @@ class mysqlcursor (object) :
         self.db = pymysql.connect(host=host,port=port,user=username,password=password,db=dbname,charset='utf8',cursorclass=pymysql.cursors.DictCursor)
     
     # mysql insert
-    def insert_sql(self,temp_sql,data,Serialid = self.Serialid) :
-        loginfo = ("{%s::}sql_insert  ------>" % (Serialid,temp_sql)) + "\n" + ("{%s::}sql_insert_data ------>" % (str(Serialid,data)))
+    def insert_sql(self,temp_sql,data) :
+        Serialid = self.Serialid
+        loginfo = ("{%s::}sql_insert  ------>" % (str(Serialid+temp_sql))) + "\r\n" + ("{%s::}sql_insert_data ------>" % (Serialid+str(data)))
         logger.info(str(loginfo))
         try:
             # 使用cursor()方法获取操作游标 
